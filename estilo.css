@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  font-family: calibri, Sans-Serif;
+  transition: 0.8s;
+  }
+body {
+  background: #0c1490;
+  }
+h1 , h2 , code {
+  color: #50AA43;
+  text-align: center;
+  }
+#outerCont {
+  background-image: url('fondo.jpg');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: max-content;
+  width: max-content;
+  margin: auto;
+  }
+#container {
+  height: 360px;
+  width: 80vw;
+  max-height: 400px;
+  max-width: 350px;
+  background: #00000088;
+  border-radius: 1vw;
+  box-shadow: 1px 1px 3px #00000044, -1px -1px 2px #00000044;
+  padding-top: 10%;
+  }
+.center {
+  margin: auto;
+  width: 80%;
+  height: 10%;
+  margin-top: 5%;
+  }
+input {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  }
+input:focus {
+  outline: none;
+  }
+#generate , #copy {
+  background: #50AA43;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  }
+#passLen , #generatedPass {
+  border: 2px solid #50AA43;
+  }
+::placeholder {
+  color: #000000;
+  }
